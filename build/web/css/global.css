@@ -1,0 +1,381 @@
+/*
+	Default Styles
+*/
+
+* { margin: 0; padding: 0; outline: 0; }
+body { font: 12px/14px Arial,sans-serif; color: #3a3a3a; text-align: left; background: #cad8e3 url(images/background.gif) repeat-x 0 0; padding-top: 10px; }
+
+a { color: #0000ff; text-decoration: none; }
+a:hover { cursor: pointer; text-decoration: underline; }
+a img { border: 0; }
+
+.fl { float: left; display: inline; font-size: 11px}
+.fr { float: right; display:inline; }
+.ac { text-align: center; }
+.ar { text-align: right; }
+.al { text-align: left; }
+.cl { clear: both; height: 0; line-height: 0; font-size: 0; text-indent: -4000px; }
+.hidden { display: none; }
+.notext { font-size: 25px; font:Verdana; line-height: 0; text-align:center; text-indent: 0px; }
+.shell { width: 980px; margin: 0 auto;}
+
+.box { margin-bottom: 10px; }
+.box .cnt { height: 100%; background: #fff; padding: 5px 10px; }
+.box .bottom { background: url(images/box-bottom.gif) no-repeat 0 0; height: 3px; }
+.box .top {
+	background: url(images/box-top.gif) no-repeat 0 0;
+	height: 4px;
+	font-size: 0;
+	line-height: 0;
+	text-indent: -4000px;
+}
+
+/*
+	Header
+*/
+
+#header { background: url(images/header-bg.gif) repeat-x 0 0; height: 104px; }
+
+h1#logo { height: 95px; width: 444px; margin: 0 0 0 0; }
+h1#logo a { display: block; height: 95px; background: url(images/logoR.jpg); text-indent: -4000px; }
+
+.a-side-header { float: right; display: inline; width: 220px; font-size: 11px; color: #8f8f8f; line-height: 20px; padding-top: 10px; }
+.a-side-header a:hover { text-decoration: none; }
+.a-side-header span { line-height: 25px; }
+
+.a-side-header span.sep {
+	float: left;
+	display: inline;
+	height: 25px;
+	width: 1px;
+	background: #ebebeb;
+	position: relative;
+	margin: 0 5px;
+}
+
+.a-side-header .lang {
+	float: left;
+	display: inline;
+	height: 20px;
+	width: 72px;
+	background: url(images/lang-bg.gif) no-repeat 0 0;
+	padding-left: 7px;
+	font-size: 10px;
+	line-height: 20px;
+	color: #4d4d4d;
+	margin: 3px 5px 0;
+}
+
+.a-side-header .sitemap {
+	float: left;
+	display: inline;
+	color: #8f8f8f;
+	background: url(images/icon-sitemap.gif) no-repeat 0 center;
+	padding-left: 14px;
+	line-height: 25px;
+}
+
+/*
+	Navigation
+*/
+
+
+#navigation {
+	height: 32px;
+	background: url(images/navigation.gif) no-repeat 0 0;
+	padding-top: 4px;
+	margin: 5px 0;
+}
+
+#navigation ul {
+	list-style: none outside;
+	float: left;
+	display: inline;
+	width: 75%;
+	margin-left: 4px;
+}
+
+#navigation li {
+	float: left;
+	display: inline;
+	height: 28px;
+	margin-right: 5px;
+}
+
+#navigation li a {
+	float: left; 
+	display: inline; 
+	height: 28px; 
+	width: 84px; 
+	padding-right: 10px;
+	background: url(images/nav-bg.gif) no-repeat 0 0; 
+	text-align: center;
+	font-size: 10px; 
+	text-transform: uppercase;
+	line-height: 28px; 
+	color: #000000;
+}
+
+#navigation li a:hover, 
+#navigation li a.active { 
+	background-position: -94px 0; 
+	text-decoration: none; 
+}
+
+#search { 
+	float: right; 
+	display: inline; 
+	width: 160px; 
+	height: 25px; 
+	margin: 3px 7px 0 0;
+	background: url(images/search-field.gif) no-repeat 0 0;
+}
+
+#search .field { 
+	font-size: 10px; 
+	float: left; 
+	display: inline; margin: 6px 0 0 5px;
+	width: 120px; 
+	border: 0;
+	background: none;
+	color: #616b63;
+}
+
+#search .btn { 
+	float: right; 
+	display: inline; 
+	height: 13px; 
+	width: 12px; 
+	background: url(images/icon-search.gif) no-repeat 0 0; 
+	border: 0;
+	margin: 6px 7px 0 0; 
+	cursor: pointer;
+}
+
+.column { float: left; display: inline; width: 210px; }
+.column2 { float: left; display: inline; width: 710px; }
+
+.middle-col { margin: 0 15px; }
+
+/*
+	Latest News
+*/
+
+.latest-news { height: 100%; background: url(images/latest-news-bg.gif) repeat-y 0 0; }
+.latest-news .latest-bottom { background: url(images/latest-news-bottom.gif) no-repeat 0 bottom; }
+.latest-news .latest-top { background: url(images/latest-news-top.gif) no-repeat 0 top; padding: 3px; }
+
+
+/*
+	Other News
+*/
+
+.post { padding: 5px 5px 5px 10px; } 
+.post h2 { font: 20px "Trebuchet MS", Arial, sans-serif; color: #404040; margin-bottom: 7px; }
+.post h2 span { color: #be3f24; }
+.post h3 span {color: #404040; }
+.post p { padding-bottom: 10px; }
+
+.post .more { 
+	display: block;
+	height: 11px;
+	background: url(images/latest-news-actions.gif) no-repeat 0 0;
+	padding-left: 15px;
+	line-height: 11px;
+	font-size: 11px;
+	color: #c24426; 
+	text-decoration: underline; 
+}
+
+.post .more:hover { text-decoration: none; }
+.post ul { list-style: none outside; padding: 20px 0 0 0; }
+
+.post li { 
+	background: url(images/latest-news-actions.gif) no-repeat 0 2px; 
+	padding-left: 15px; 
+	padding-bottom: 5px; 
+}
+
+.post li a { 
+	font-size: 11px; 
+	line-height: 11px; 
+	color: #c24426; 
+	text-decoration: underline;
+}
+
+.post li a:hover { text-decoration: none; }
+
+
+/*
+	Footer
+*/
+
+#footer { padding: 10px 0; font-size: 11px; }
+#footer a { color: #3a3a3a; text-decoration: underline; }
+#footer a:hover { text-decoration: none; }
+
+
+/* Images*/
+
+
+
+/* Buttons */
+#buttons {
+	margin: 32px 37px 0;
+	float: right;
+	}
+	
+#buttons img {
+	padding-left: 20px;
+	}
+
+table.Design5 {
+    border-spacing: 0px;
+    border-collapse: collapse;
+    border-top: 4px solid #EA9A1C;
+    border-bottom: 1px solid #EA9A1C;
+    border-left: 1px solid #EA9A1C;
+    border-right: 1px solid #EA9A1C;
+    text-align:left;
+    width:400px;
+}
+table.Design5 th {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0.2em 0.2em 0.2em 0.2em;
+    border-top: 1px solid #EA9A1C;
+    background:#EA9A00;
+}
+#textf { 
+	float: left;
+	display: inline; 
+	width: 173px;
+	height: 29px;
+	margin: 3px 7px 0 0;
+        color : black;
+	background: url(images/search-field_1.gif) no-repeat 0 0;
+}
+
+#texta {
+	float: left;
+	display: inline;
+	width: 60px;
+	height: 29px;
+	margin: 3px 7px 0 0;
+	background: url(images/search-field_1.jpg) no-repeat 0 0;
+}
+
+#texta .field1 {
+	font-size: 12px;
+	float: left;
+	display: inline; margin: 6px 3px 3px 10px;
+	border: 0;
+	background: none;
+	color: #616b63;
+}
+
+#textf .field {
+	font-size: 12px;
+	float: left;
+	display: inline; margin: 6px 3px 3px 10px;
+	border: 0;
+	background: none;
+	color: #616b63;
+}
+table.Design5 td {
+    text-align: left;
+    font-size: 12px;
+    font-weight: bolder;
+    border-top: 1px solid #EA9A1C;
+    padding: 0.7em 0.5em 0.7em 1.7em;
+    width: 200px;
+}
+table.Design5 td.but {
+    text-align: center;
+    border-top: 1px solid #EA9A1C;
+    padding: 0.7em 0.5em 0.6em 0.5em;
+}
+table.Design5 thead th {
+    text-align: center;
+    border-bottom: 1px solid #EA9A1C;
+}
+table.Design5 th.Corner {
+    text-align: center;
+}
+
+
+select
+{
+border-width: 1px;
+padding: 1px;
+font-weight: normal;
+font-size: 11px;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+background-color: #F8F8F8;
+color: #000;
+}
+
+table.Design6 {
+    border-spacing: 0px;
+    border-collapse: collapse;
+    border-top: 4px solid #EA9A1C;
+    border-bottom: 1px solid #EA9A1C;
+    border-left: 1px solid #EA9A1C;
+    border-right: 1px solid #EA9A1C;
+    text-align:left;
+    width:700px;
+    background: url(images/gallerybg.jpg) no-repeat 0 0;
+}
+
+table.Design6 td {
+    text-align: left;
+    font-size: 12px;
+    font-weight: bolder;
+    border-top: 1px solid #EA9A1C;
+    padding: 0.7em 0.5em 0.7em 1.7em;
+    width: 200px;
+}
+
+/*
+	Sitemap Styler
+*/
+
+#sitemapli, #sitemapli ul, #sitemapli li{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#sitemapli{}
+#sitemapli ul{
+	display:none;
+}
+#sitemapli li{
+	line-height:200%;
+	margin-top:1px;
+	background:#eee;
+	position:relative;
+	width:100%;
+}
+/* IE leaves a blank space where span is added so this is to avoid that */
+#sitemapli li a{padding-left:28px;}
+#sitemapli li span{float:left;position:absolute;top:5px;left:5px;width:13px;height:13px;cursor:auto;font-size:0;}
+#sitemapli li span, #sitemapli li span.collapsed{background:url(images/collapsed.gif) no-repeat 0 0;}
+#sitemapli li span.expanded{background:url(images/expanded.gif) no-repeat 0 0;}
+
+/* second level */
+
+#sitemapli li li{
+	background:#fff;
+}
+#sitemapli li li a{padding-left:56px;}
+#sitemapli li li span{left:28px;}
+
+/* third level */
+
+#sitemapli li li li a{padding-left:84px;}
+#sitemapli li li li span{left:56px;}
+
+/* etc. */
+#contentnew1{margin:0 20px;}
+/*  */
